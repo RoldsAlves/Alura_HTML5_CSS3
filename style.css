@@ -1,3 +1,38 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav-header {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.nav-header li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.nav-header a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-header a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+ 
 #banner {
 	width:100%;
 }
@@ -36,7 +71,7 @@ em strong {
 	padding: 20px;
 }
 
-ul {
+.ul-itens {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
